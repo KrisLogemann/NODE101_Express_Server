@@ -7,7 +7,7 @@ const expect = chai.expect;
 chai.use(chaiHttp);
 
 describe("server module", function() {
-  this.timeout(6500);
+  this.timeout(65000);
   it("GET / responds with a 200 response code", (done) => {
 		chai.request(app)
   		.get('/')
